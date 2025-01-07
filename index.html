@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Dustin La">
+        <meta property="og:image" content="https://i.imgur.com/waGT4SD.png">
+        <title>Dustin La</title>
+        <!-- Favicon -->
+        <link rel="icon" href="images/WebsiteLogo.png" type="image/x-icon" />
+        <!-- Stylesheets -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script defer src = "transition.js"></script>
+        <script src="imageCarousel.js" defer></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="readMore.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+<!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dustin La</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#extracurriculars">Activities</a>
+                        </li>     
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#connect">Connect</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        </li>               
+                    </ul>
+                    <!-- Social Nav -->
+                    <ul class="navbar-nav ml-auto">
+                        <div class = "socialNav">
+                            <a class = "navIcon" href="https://www.linkedin.com/in/dustin-la" target= "_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class = "socialNav">
+                        <a class = "navIcon" href="https://github.com/dustinlaa" target= "_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        </div>
+                        <a class="navbar-brand" href="#">drl3@njit.edu</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!-- Profile Pic -->
+        <div class = "circleImg">
+            <img src="images/860A9930.jpg" alt="Profile Picture">
+        </div>
+        <div class = "section" id="home">
+            <div id = "intro">
+                <h1 class="title">Hello World!</h1>
+                <div class = "hiddenUp">
+                    <p>
+                        Hi! My name is Dustin La and I am majoring in Computer Science with a Minor in IT at the New Jersey Institute of Technology (NJIT).
+                        <br></br>
+                        Nice to meet you :)
+                    </p>
+                </div>
+            </div>
+        </div>
+<!-- About Me -->
+        <div class = "section" id="aboutMe">
+            <div class = "aboutMe">
+                <h1 class="title"> About Me</h1>
+                <div class = "hiddenUp">
+                    <p>
+                    Throughout my time at NJIT, I have experienced many amazing opportunities. 
+                    <br></br>
+                    I worked as an Orientation Leader for NJIT's New Student Orientation and guided over 1,600 incoming students to support their educational and personal goals.
+                    <br></br>
+                    Additionally, I was of the event coordinators for the NJIT Student Activities Council and I established and facilitated 17 school-wide events for 500+ students.
+                    <br></br>
+                    Most recently, I was a Cloud Engineer intern at Avanade where I learned what it takes to plan, construct, test, and implement Cloud Infrastructures with Microsoft Technologies.
+                    <br></br>
+                    In terms of project experience, I have developed several projects which can be seen below and have won awards at three hackathons for Best Themed Hack at HackNJIT 2022, Best use of MongoDB Atlas at GirlHacks 2023,
+                    and 2nd Place, being the top placing NJIT team, at HackNJIT 2023.
+                    <br></br>
+                    These positions and experiences developed my time management, collaboration, communication, leadership, and programming skills. I'm looking to make an impact in a software development position that will allow me to apply and further enhance my programming skills. 
+                    </p>
+                </div>
+            </div>
+        </div>
+<!-- Projects -->
+        <div class = "section" id="projects">
+            <div class = "projects">
+                <h1 class = "title">Projects</h1>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/RapidRentals.png" alt = "rapidRentals" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Rapid Rentals</h3>
+                                <p>
+                                    Created by Ryan McCusker, Samuel Levshteyn, Dustin La, and Peter Akdemir
+                                    <br> </br>
+                                    <b>-- NJIT YWCC Spring 2024 Capstone 2nd Place Panel Winner -- </b>
+                                    <br> </br>
+                                    A Start-up Entrepreneurial Project developed in Android Studio with Kotlin, Django (Python), and hosted on AWS and Heroku. Developed
+                                    an online platform with an integrated delivery system where users can browse a wide range of rental tools from local peers anytime, 
+                                    making the rental process more accessible, convenient, and cost-effective.
+                                    <br> </br>
+                                    Ever need a tool for one use but don't want to pay the large prices? Introducing Rapid Rentals! An item rental platform that allows users to list items for rent 
+                                    and creates a new platform for delivery drivers to pick up and deliver rentals.
+                                    <br></br>
+                                    Skills: Android Studio, Kotlin, Firebase, Django, Python
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/LegoProject.png" alt = "legoProject" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Lego Set Rating Predictor</h3>
+                                <p>
+                                    Created by Sriya Chinthalapudi, Keya Dhruve, Dustin La, Archa Mehta, and Shaili Soni
+                                    <br> </br>
+                                    Explored the realm of Lego Set Ratings using a diverse set of machine learning models including Ridge Regression, 
+                                    Graph Convolutional Network, and Random Forest. 
+                                    <br></br>
+                                    This project explored rating predictions using attributes of lego sets
+                                    including number of pieces, target audience, the collection type, and more!
+                                    <br> </br>
+                                    Skills: Machine Learning, Python
+                                </p>
+                            </div>
+                            <div id="projectLink">
+                                <a class="link" href="https://github.com/dustinlaa/cs375lego" target="_blank">
+                                    <i class="fab fa-github">&nbsp;</i>Github
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/MealPrepTracker.png" alt = "mealPrepTracker" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Meal Prep Tracker</h3>
+                                <p>
+                                    Created by Dustin La, Joshua Quizon, and Rahul Shah
+                                    <br> </br>
+                                    An Android Application utilizing Android Studio with Kotlin, Firebase Real Time Database, Firebase Messaging, and the CalorieNinja API to deliver an application that will help
+                                    users keep track of their meal prepping habits through nutrition and expenses. 
+                                    <br> </br>
+
+                                    Stay on top of your meals and expenses with the Android app Meal Prep Tracker! Dive into a world of culinary organization
+                                    where you can effortlessly log your meal prep creations, while also keeping tabs on your nutrition summary and expenses. It’s the ultimate tool 
+                                    to elevate your meal planning game!
+                                    <br> </br>
+                                    Skills: Android Studio, Kotlin, Firebase
+                                </p>
+                            </div>
+                            <div id="projectLink">
+                                <a class="link" href="https://github.com/Meal-Prep-Tracker/CS388-Meal-Prep-Tracker" target="_blank">
+                                    <i class="fab fa-github">&nbsp;</i>Github
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/MovieStacks.png" alt = "movieStacks" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Movie Stacks</h3>
+                                <p>
+                                    Created by Dustin La (PM), Disha Rana (Co-PM), Neha Patel, Khushi Patel, Michael Gallo
+                                    <br> </br>
+                                    A large scale project involving system integration and software development to create a Software as a Service (SaaS). This project involved
+                                    multiple virtual machines (VMs) each hosting a specific service of Frontend, Backend, Database, and Messaging (RabbitMQ). These VMs worked together 
+                                    along with obtaining movie data from The Movie Database (TMDB) API to create a movie discovery social platform. In this project, I was a Project Manager and worked specifically on the Backend system. 
+                                    <br> </br>
+                                    Ever have a hard time deciding what to watch? No worries when it comes to Movie Stacks!
+                                    Discover new movies to watch in this Movie Discovery Social Platform! Sort through movies and list them as interested, not interested, or watched. 
+                                    Write reviews about movies you have seen, and engage with others in the communities page!
+                                    <br> </br>
+                                    Skills: Django, Python, RabbitMQ, PHP, MySQL, Linux (Ubuntu)
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/wikiHunt.png" alt = "wikiHunt" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">WikiHunt</h3>
+                                <p>
+                                    Created by Peter Akdemir, Michael Gallo, Dustin La, and Joshua Quizon
+                                    <br> </br>
+                                    A recreation of the Wikipedia game created to be in "Wordle" Style where each day there is a brand  
+                                    new pair of daily start and end words. Developed using Svelte for creating the web application, MongoDB for the word storage, Express, and Node.
+                                    Deployed using Vercel. 
+                                    <br> </br>
+                                    Play each day to navigate from one word to another using only links on Wikipedia pages! Navigate using the least amount of
+                                    links clicked as well as fastest time. Once finished, share your score and challenge your friends!
+                                    <br> </br>
+                                    Skills: Svelte, MongoDB (NoSQL), Express, Node
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://wikihunt-game.vercel.app/" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bRbF6phE7Fo?si=081Jt7bC0pbL1eZf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Beats to Blocks</h3>
+                                <p>
+                                    Created by Peter Akdemir, Dustin La, Joshua Quizon, and Rahul Shah
+                                    <br> </br>
+                                    A stem separation and MIDI transcription program built using Python, Google Colab, the stem splitting models of
+                                    Deezer's Spleeter and Facebook's Demucs models, the MIDI transcription models of Google Magenta's MT3 and Spotify Basic Pitch models, and Open Note Block Studio
+                                    to convert any song into a Minecraft Note Block Cover.
+                                    <br> </br>
+                                    Skills: Python, Machine Learning
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://beatstoblocks.github.io/" target="_blank">
+                                        Project Site
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/beats-to-blocks" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/treasureSnap.png" alt = "treasureSnap" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Treasure Snap!</h3>
+                                <p>
+                                    Created during the HackNJIT 2023 Hackathon by Dustin La, Gabriel Pascual, Joshua Quizon, and Peter Akdemir
+                                    <br> </br>
+                                    <b>-- HackNJIT 2023 2nd Place Winner -- </b>
+                                    <br> </br>
+                                    A web app built using Streamlit to create a challenging and fun interactive
+                                    treasure hunt. MongoDB was used for user accounts and image storage. Additionally we used a 
+                                    Convolutional Neural Network (CNN) to verify if user submitted images match the displayed images 
+                                    and GPS coordinates to verify if images submitted were taken in the correct real world location. 
+                                    <br> </br>
+                                    Argh matey! Sail forth to find me treasures in real world locations!
+                                    Users are tasked with going to locations in images with pirate themed riddles to collect virtual treasures.
+                                    <br> </br>
+                                    Skills: Python, MongoDB (NoSQL)
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/treasure-snap" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/HackNJIT2023" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                    <a class="link" href="https://news.njit.edu/hacknjit-matches-pre-pandemic-participation-map-hunting-game-impresses-judges" target="_blank">
+                                        Published Article
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/findMyAlien.png" alt = "findMyAlien" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">Find My Alien!</h3>
+                                <p>
+                                    Created during the GirlHacks 2023 Hackathon by Dustin La, Gabriel Pascual, Joshua Quizon, and Peter Akdemir
+                                    <br> </br>
+                                    <b>-- GirlHacks 2023 Best Use of MongoDB Atlas Winner -- </b>
+                                    <br> </br>
+                                    A web application using the Streamlit framework in Python to create a fast-paced competitive game about finding space aliens in user uploaded images.
+                                    We used React to incorporate the alien placement feature and MongoDB for user accounts, leaderboard, image creation, and image storage. 
+                                    <br> </br>
+                                    Welcome to Find My Alien!!! Find a cheeky little alien in these user-uploaded images and get the best time! May the alien hunt begin!
+                                    <br> </br>
+                                    Skills: Python, React, MongoDB (NoSQL)
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/find-my-alien" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/jbq2/Girlhacks2023" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/harvestValley.png" alt = "harvestValley" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Harvest Valley</h3>
+                                <p>
+                                    A Unity Project using Raycast Hit Detection, Simple AI, First Person Camera, Collisions, and enhanced with sounds, particle effects, 
+                                    3D models, and made in a custom made world. 
+                                    <br> </br>
+                                    Adventure through the valley to water crops, harvest them, and deposit. Explore the vast world while watering sprouts for crops, 
+                                    collecting coins for upgrades, climbing mountains with platforms, and spraying moles who will chase you down. 
+                                    Will you become the ultimate farmer? 
+                                    <br> </br>
+                                    Skills: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-4-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/chickenRush.png" alt = "chickenRush" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Chicken Rush</h3>
+                                <p>
+                                    A Unity Project based on the Roll-a-Ball tutorial made into a platformer with new world and code features. 
+                                    These include player models, collectibles, obstacles, music, teleporters,
+                                    sound effects, custom movement, doors, menus, and camera rotation. 
+                                    <br> </br>
+                                    Collect 12 stars in each level and get to the purple platform before time runs out! 
+                                    <br> </br>
+                                    Skills Learned: Unity, C#
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3.itch.io/sprint-2-dustin-la" target="_blank">
+                                        Project Site
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/marshmallow.png" alt = "Marshmallow" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Marshmallow Toast Simulator</h3>
+                                <p>
+                                    Created during the HackNJIT 2022 Hackathon by Adrianna Rust, Andrew Dickman, Dustin La, and Hrishikesh Sakunala
+                                    <br> </br>
+                                    <b>-- HackNJIT 2022 Best Camping Themed Hack Winner -- </b>
+                                    <br></br>
+                                    Used Python with the Pygame library to create a game where a user toasts their marshmallow to a scrumptious golden brown.
+                                    Choose a duration of short, medium, or long to toast your marshmallow over the campfire.
+                                    Based on this duration, you will toast your marshmallow and get it closer to Golden Brown!                              
+                                    But be careful, too much toasting will burn your marshmallow.
+                                    Continue to toast golden brown marshmallows to increase your streak and go for a high score!
+                                    <br> </br>
+                                    Skills Learned: Python, Pygame
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://devpost.com/software/marshmallow-toast-simulator" target="_blank">
+                                        Devpost
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/marshmallowToastSimulator" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/simpleArcade.png" alt = "simpleArcade" class = "colImg">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> Simple Arcade</h3>
+                                <p>
+                                    I designed and created a web application that is based on a pre-made HTML game with custom modifications.
+                                    This web application uses PHP, CSS, and Bootstrap for visual layouts and page
+                                    connections. Additionally, I built an SQL Database for users to register accounts and save their game data. 
+                                    I used PHP and Javascript for saving scores, creating profiles, competitions, admin functions, and other users functions.
+                                    The SQL Database is queried to create dynamic weekly, monthly, and lifetime scoreboards. 
+                                    <br> </br>
+                                    Skills: HTML, PHP, CSS, JavaScript, SQL, Bootstrap
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://drl3-prod.herokuapp.com/Project/login.php" target="_blank">
+                                        Project Site
+                                    </a>
+                                    <br></br>
+                                    <a class="link" href="https://github.com/dustinlaa/IT202-011/tree/prod" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Extracurriculars -->
+        <div class = "section" id="extracurriculars">
+            <div class = "activities">
+                <h1 class = "title">Activities</h1>
+                <div class = "hiddenLeft">
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg2Container" id = "SAC">
+                                <div class = "colImg2">
+                                    <img src="images/saclogo.png" alt = "SAC" class = "colImg2">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle"> NJIT Student Activities Council</h3>
+                                <div class = "colDescReadMore">
+                                    <p>
+                                        The New Jersey Institute of Technology Student Activities Council (SAC) is a group of fun-loving and 
+                                        ambitious students who desire to make an impact at NJIT. We do this by planning and hosting engaging 
+                                        experiences throughout the semester, aimed at bringing the campus community together.
+                                    </p>
+                                    <div class = "readMore">
+                                        <span>
+                                            <p>
+                                                I was one of the Event Coordinators for the Student Activities Council. I developed skills in event planning, budgeting, 
+                                                volunteer mangement, communication, and teamwork to host successful events.
+                                                I have contacted agencies for different acts and supplies to help run 500+ person, school-wide events.
+                                                These events include Do It Yourself (DIY) Days, Game Shows, Movie Nights, and more!
+                                                <br></br>
+                                                In addition to planning events, I attended professional conferences including the National Association for Campus Activities (NACA) in Hartford where I was able to network with other
+                                                student activities councils, meet with vendors, and get ideas on more events to bring to NJIT.
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <p class="readMoreBtn">Read More...</p>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div class = "galleryBody">
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                            <ul class="carousel">
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/zO3q-IYQ54I5qnG8V_pR9CmDvKPYaXPYE7fhGwBubu0KYLfs8Ip1zaAHt2d1GO7F0IYzfP3vAMlSQku9_PtC-8cllaGxfJrSof-zz-jC-oU75OeDvjNB-VbpkY0CfLeLQkbPcxX7CA=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/WlqSYOofvzkPM6zE-LWofYz1ZhnFkw1FkEq-9qN3M9VFx6Qdy_i7M891D_f4kuclH-N4j1GKURhzJET-drERyOzWiCSH24vBCbi4eVd8pSB7q0_2wscQx34ez36E62_NOLca0F0b6w=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/ca_TTr_f1AO2o9pOj1Xk_cPbFYhzGMfKq6miSSjRYqqg3TEBQCRB4ZWHtfKuGVBwQ7hp12yMxJiIEMT33cv0QZwY6hSrRd2skox90auYP9rw1o_svDAvOTlTBmZx1Auu5YUEt5dYiw=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/URTbVuzT4LqJivzthUE9_hghQmzuva2Thc2j6usfM51sKa4Zim0yP-BYRtYKQbCz5Y2NnKiYrNq5W4K8pcadg2WmA0AMUlfgqqO6YavEvQnaQDq-iBlkSfBufoHQGZnMHDO4ofLW2g=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/KmEM00cfOGIl0re-UfntWgUIhcqV8O7Uf1ryZ8FPRBKM2FxH3H_EmG3Ic0jPCWijzVT4pH1gHv4OdkfZw6lvfNN3CoxLafyG0PdIqzey0SFxe7d-d0UqkZy_EyvjGe3_N1mug_g59g=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/yf4dDReCUDe2fy8Kdi22QOAJo3nXgwsa2XNjNglrcCWILsTPDlB1OzqDm6h9tc0ciSdy6eugTAqGoRKnmOT-UkY2ua3LibF-zodAaI5Sadprrjb-MhfI5O467sIyr8vLbGOhq6Ldgg=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/eqpvYyxCVXaCYNyRtQUuVO2NXS6PTNGQ2IMxNBj4GTr2QuNpV1jQvVN-SwlEz9hgk2BKMCYD21Exx6AoC_MU7pK4lSKZPSeX9BwS7q4LeM451ULznj2_pqOBw4P1zF-BTI9LUae4Lw=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/yEL6GCwx72GeDq7SSehGc9NeBkSXUZmjN3Gv4f_IHJcBAh5nWoy8CmceFLwUuESS-QkONPKZOU37rxL1JQ5smwpBx3Uu7Os0PXXVGvxjS6-jcKgXDvSDtdT39BhAh59uxFEWKj7FqQ=w2400" alt="img" draggable="false"></div>
+                                </li>
+                                <li class="card">
+                                    <div class="img"><img src="https://lh3.googleusercontent.com/HGD6iEU2sHXvdTAaPm1TSK6RnWs5zrl811uUZAKOomXYMQxogTIulk0Uqa0ePTH474M3WUfiq-X3yU_dk02nW8QKtjdB8OY8Gb5BH--Z8FO3ELcEntMlPJYc9nYUmXrs404Tz6YRIg=w2400" alt="img" draggable="false"></div>
+                                </li>
+                            </ul>
+                            <i id="right" class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <br></br>
+                </div>
+            </div>
+            <br></br>
+            <div class = "section" id="extracurriculars2">
+                <div class = "activities">
+                    <div class = "hiddenLeft">
+                        <div class = "divider"></div>
+                        <div class = "row">
+                            <div class = "col">
+                                <div class = "colImg2Container">
+                                    <div class = "colImg2" id ="FIRST">
+                                        <img src="images/firstlogo.png" alt = "FIRST" class = "colImg2">
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class = "col">
+                                <div class = "colDesc">
+                                    <h3 class="subTitle"> FIRST Robotics</h3>
+                                    <div class = "colDescReadMore">
+                                        <p>
+                                            For Inspiration and Recognition of Science and Technology, FIRST, is an organization promoting STEM and robotics to students in elementary, middle, and high school levels. 
+                                            I had the opportunity to be on a FIRST Robotics Competition Team in my high school years. During this competiton, teams are given a game each year and the challenge of
+                                            creating a robot to compete in competitions all around the world. FIRST greatly encourages teamwork, problem solving, learning, and leadership.
+                                        </p>
+                                        <div class = "readMore">
+                                            <span>
+                                                <p>
+                                                    I was on Team 4361: Roxbotix from Roxbury, NJ. I was on the team for all four years
+                                                    of high school and participated in the electrical and mechanical aspects of the robots. I also volunteered in community events such as demonstrations,
+                                                    mentoring the middle school team, community clean ups, and more. 
+                                                    <br></br>  
+                                                    I became the Chairman's Award Leader during my senior year where I oversaw the production of a video, essay, and presentation to compete for this award.
+                                                    This award showcased how my team is creating leaders and transforming the culture in ways that will inspire greater levels in STEM. 
+                                                    Th video produced can be seen below. 
+                                                    <br></br>
+                                                    FIRST Robotics has helped me gain a higher interest in STEM and has made a big impact in my life over the 4 years I was competing in high school.
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <p class="readMoreBtn">Read More...</p>
+                                    </div>          
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <!-- <br></br> -->
+                <div class = "galleryBody" id = "roboticsGallery">
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                        <ul class="carousel">
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/LltuQOAiUNbdoyD0V3xHnsk2LuNqoXtbWAt2WfrJdze247BDw3a8xPyTMy0cRIBI_oORzpqZ1GOBGXDfj3TKlth8F782BnlKnNUjkCTZ0-7AUO4XU9tfro6gTcQC5YwuWTmc2lTk6A=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/r1QxBHyeqlsxd2jMDA_e604wwgRB3BuIXfYyeNcbBwDkcjeMRFT1Q8ON2xMCaYJ4eJ9FrRb5UVOttL9ZI56uTl7K2SIx_Qo2keIps7oEPPxccv2R6idWAumkIW6ko0YbqnsDyrHlrw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/4GQJWYV1SOfbZQO_8-wN_gZ9ajLLuwCuvsvTPgu2dOJS-IMiB01T3JhbQ4MZVs2tPVdWWDJnW9rs2a0CKEZpIAWhcuactdWhT9QESvJWxLG7AiEuSMqt-CkMjsqP1NrqDiS0DMnSqQ=w2400" alt="img" draggable="false"></div>
+                        </li> 
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/3rlx9w414scC9xxGHx86ejgB8TyliR6JCyzZCKrBJjMDbnWl1xU6Bk8t7R2qFyi8wrHs1CuXgf_eRNCdI6Jz0xXqscbzzjP7zfx_eDmOUNx53FL4lkxLAmX3ULmi40Oh42cNIIRNRQ=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/dIpGcX12YQknm9Rw-3FxYxvlisLeCDuh6ggw5Bx14FUczKoe68zNr7G0J4WfEJwTwTmUXpPxfaY9nf216alpOeZmMlvmnbC62HSd5FX2xCkuxo_4jKl-y33hEJSt1LHaGCFbLYK9Fw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/n_fjKUgZBI5joK6vQ-IBXu_vvw8qOwGehgbjtX1T2ADqFY3cEZCmri8DN2ExO1hPGa7qKZfxMLgorQeWtEo6rSn5cKd7XyqqY64vFV9yuWXmLo-j05Vz6RW3eBFkjNmALRhK4Bws_w=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/SO08aHQhCm5q7oSmUsai-TiPDVEGd13SfzYccgMNwMF2iKDfW9_e6s_hAVpoudC1xQnrR4Ayzqk9jmYo1PZVJ4iGt_y1knmxdOgCLs2saL98UlFZQuXI8uzNhdh5xW4-hdyk1ET8qQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/IWj9B05t1miHn1xIUo9kfPppyX5hgW-NR9fZUTBvSOGWhxzx_WMG64Qswbd0qKIG3SXWDtvs0yGzeO58BuQbX0e1sKqRibY8MSUIf9nkj4kNJhBaLRX2-8U_W3zaacqb0ymru1RzHA=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/ZR3h7F1-OxxezaopMNaKrhssbWFcuPgtHSCWFvplrlrPCf0fldSOXQNhu1a463MvFMQrdht6bEk3mySdjS4CwjVQnL13JU-JTFEp3hQlQa0h0J3ceFP4uRaEr9cjgN7Vh477kR1uLw=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/4q2490yaSvzPc0qQaPT9INr8NFUBX6Jy1PdinerNALab1_lOgrjfW8WwbT3gSbAFIO5Hatw604ydW6hCmGt7FuxZ8NCvWbKm9IfJD6v6fGYUjHIJq5YTuscZhDzt3U4PG8Kfaifj4w=w2400" alt="img" draggable="false"></div>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/foIgBYcnkwgL5xeo80jI-oZgoE0ImZNdZjC52YnR5dofI16-z46gJR1_aHv5vkl1WVl2spa5Bg4lwXap5M1U65RUxoqUm-LDX_oZTz49guTVUBjRI0OlS_EUN7yLUoR3SZpqPjIRMQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/F-RJbv2bZIRdjGEYE3LTFKpkmHDZpgKVdkOkgq7pRMNdR7XzVIXrMNiPWU16V9kl6XtmOOM7BEQjoSx8HQITABzVelTj6c4xoPVraKJbEMfFN9jcQVe1R2UGexv8Ou5R5F_miyAffw=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/TDrg7NUYHv9rqvdmF5c3wAv37h4cBo06FNmRaIqI72Ml7N0vSyj50TxciQN34H__xpKzZAr9b0CnMxWNUMccpvazp993EDrrYyRF2yqT6EiJxX8bcI9Q5270LQvfL94QSggG-Yxb8w=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/Lt55PnCqgWnh4-pJygSQPhN2SNuNf8ypH7qDYVoLYBKQuAdiEhlrzofma4oMsKMB2ArxZ3yAGsBXMUpFlLXQXKZzv5q3y8WgX2zLJq7Q1bD0fNGXzHl-x-JLRmD5HbRjmRGluacnDg=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/-76jxygJ352-ShglYndt82J9K2QXX3Zq6mXlWspK1gin1J5_S0vhQbWVc72ZGIpf2sCMLgUj-kHV9VlEqZoHb977XRefiJcvmXIcT1m3k_BjDxXtp2nL0ABv9fk-_YlAQHSJFEetiA=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/iiADm2EIyH82YtLoFaLUBHt-U-kPuO2D5HGXLf1zj5HS2XTgaZzgAUQak1bYuPTBhbvDYjKnQYslUBqRh7KvYtfKGLThTEuotDpUiHKWvDOtnIdKOiaXqccAAZR486_LditQxYIMZQ=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/hHcrrbr538eMxyPxzhg2hy1rkn8rxnHPvDPJJg8pW-WAmu5zpeXmVKmmL2Cp01bmxbICBBhe4gMIurDdJCJinmrKt7N-HCmMhtHtnSKT0TlMFbPH1NIYwWDBduRslKG5lF5O28-9Jg=w2400" alt="img" draggable="false"></div>
+                        </li>   
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/dGVa4Egby7IiM5p45fuEd2YML8dwv_2ncsZl206W2txA-QfsrCgeeTgSxnLiByK1WedNq5VWFzjLHOeoT67YeJgZ2QUP_oknhl27yJFNNCxuTtLoT7apkmIvPStoEb8InVcvf_ieDw=w2400" alt="img" draggable="false"></div>
+                        </li>      
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/GPUMLHQJP2qtBffIegZvYXhwIhTAfLCw-KJS6b3CbQOYQzH3aPVihUrAZ-M8C0U-pqLN-uJbOa0DumU4G6S1JEKfQ-5oNcSd62oVgH8aNFkX3jRpY2Is1x3_0dUQqMaTBRAaPDJbZA=w2400" alt="img" draggable="false"></div>
+                        </li>      
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/8T93p3XrpXP0NnLzAjazNz5tu4Hks-zzF6ZnoiV55EYO845SQ4IWLoXNTELQ1zksAa3chUgJ8Nokv9k1_OcsM1DPYuZL1dcAHifLzlt16zo3Jfz_Vs_lBoNPOalBT3k80MGuQCboVQ=w2400" alt="img" draggable="false"></div>
+                        </li>        
+                        <li class="card">
+                            <div class="img"><img src="https://lh3.googleusercontent.com/8ORRFkFG2wJRb2NyG454G3O_3ImNiVhdnnImcD-elBjsMBtmlS-OzKOPejn2X2BpQOvOMNfMu3SWgO-EFvOLgOb0i4nzboAGBiYByqy7bIiC3p-1bUA_hN4zuKdglGr26-2e2qE1pA=w2400" alt="img" draggable="false"></div>
+                        </li>           
+                        </ul>
+                        <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class = "galleryBody" id = "roboticsGallery2">
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                        <ul class="carousel">
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jd29kzjclV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/OiY-_RUfAvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EMiNmJW7enI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HZbdwYiCY74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </li>
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Mew6G_og-PI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>    
+                        <li class="card">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmiYWTmFRVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>             
+                        </ul>
+                        <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Connect -->
+        <div class = "section" id="connect">
+            <div class = "connnect">
+                <h1 class = "title" id = "connectTitle">Connect with Me!</h1>
+                <div class = "hiddenUp">
+                    <div id = "connectLinks" class = "connectLinksContainer">
+                        <a class="link" href="https://www.linkedin.com/in/dustin-la" target="_blank">
+                            <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+                        </a>
+                        <a class="link" href="https://njit.joinhandshake.com/stu/users/27534499" target="_blank">
+                            <i class="far fa-handshake">&nbsp;</i>Handshake
+                        </a>
+                        <a class="link" href="https://github.com/dustinlaa" target="_blank">
+                            <i class="fab fa-github">&nbsp;</i>Github
+                        </a>
+                        <a class="link" href="https://devpost.com/drl3?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank">
+                            <i class="fas fa-code">&nbsp;</i>Devpost
+                        </a>
+                    </div>
+                    <h3 class = "subTitleCentered">drl3@njit.edu</h1>
+                </div>
+            </div>
+        </div>
+<!-- Contact -->
+        <div class = "section" id="contact">
+            <h1 class = "title" id = "contact">Contact</h1>
+            <div class= "contact">
+                <div class = "hiddenUp">
+                    <form action="https://formspree.io/f/xpzgpbgw" method="POST">
+                        <h3> Feel free to contact me!</h3>
+                        <input type="text" name="First Name" placeholder=" First Name" autocomplete="false" required>
+                        <input type="text" name="Last Name" placeholder=" Last Name" autocomplete="false" required>
+                        <input type="email" name="Email" placeholder=" Email" autocomplete="false" required>
+                        <textarea name="Message" rows="4" cols="60" placeholder=" Your Message" autocomplete="false"></textarea>
+                        <button type ="submit">Send Message!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            &copy; Dustin La
+        </footer>
+    </body>
+</html>
