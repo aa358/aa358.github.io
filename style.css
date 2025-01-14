@@ -32,10 +32,10 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/blue.jpg');
+  background-image: url('images/GreenBg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  filter: blur(15px); 
+  filter: blur(30px); 
   z-index: -1;
 }
 
@@ -83,7 +83,7 @@ scroll-margin-top: 32vh;
     scroll-margin-top: 10vh;
 }
 
-#projects, #extracurriculars, #contact {
+#projects, #workexperience, #extracurriculars, #contact {
   scroll-margin-top: 75px;
 }
 
@@ -692,6 +692,12 @@ footer {
         margin-right: auto;
     }
 
+    .section #workexperience {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #extracurriculars2.section {
         width: 100%;
         min-width: 100vw;
@@ -722,6 +728,17 @@ footer {
           min-width: 20vw;
       }
     }
+    .workexperience .title {
+        font-size: 1.7em;
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 0.09em;
+            min-width: 20vw;
+        }
+      }
+
     #connectTitle {
         font-size: 1.7em;
         &::before,
