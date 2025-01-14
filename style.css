@@ -39,38 +39,6 @@ body::before {
   z-index: -1;
 }
 
-/* .hiddenUp {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateY(75%);
-  transition: all 1s ; 
-} */
-
-/* @media(prefers-reduced-motion) {
-  .hiddenUp {
-      transition: none; 
-  }
-} */
-
-/* .showUp {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
-} */
-
-/* .hiddenLeft {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(-100%);
-  transition: all 1s ; 
-} */
-
-/* @media(prefers-reduced-motion) {
-  .hidddenLeft {
-      transition: none; 
-  }
-} */
-
 #home {
   scroll-margin-top: 500px; 
 }
@@ -86,12 +54,6 @@ scroll-margin-top: 32vh;
 #projects, #workexperience, #extracurriculars, #contact {
   scroll-margin-top: 75px;
 }
-
-/* .showLeft {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-} */
 
 .nav-link {
     transition: all 0.5s ease;
