@@ -165,8 +165,7 @@
                             <li>Applying SQL queries within Java to analyze work metrics from the database.</li>
                             <li>Transforming and integrating data into the front-end using Nivo React for interactive charts.</li>
                             <li>Creating a user-friendly JavaScript interface for dynamic data visualization.</li>
-                            <li>Contributing to historical workload tracking for informed business decisions by improving decision-making speed. </li>
-                                <!--improving decision-making speed by 30%.</li> -->
+                            <li>Contributing to historical workload tracking for informed business decisions by improving decision-making speed by 30%. </li>
                         </ul>
                         <br>
                         Skills: Java, SQL, JavaScript, Nivo React, Data Visualization
@@ -244,6 +243,113 @@
         <div class = "section" id="projects">
             <div class = "projects">
                 <h1 class = "title">Projects</h1>
+                    <div class = "row">
+                        <div class = "col">
+                            <div class = "colImg">
+                                <img src="images/HousePrice.jpg" alt="HousePricePrediction" class="colImg">
+                            </div>
+                            <div class = "colImg">
+                                <img src="images/House1.png" alt="HousePricePrediction" class="colImg"width="360"height="300">
+                            </div>
+                            <div class = "colImg">
+                                <img src="images/House2.png" alt="HousePricePrediction" class="colImg"width="360"height="300">
+                            </div>
+                        </div> 
+                        <div class = "col">
+                            <div class = "colDesc">
+                                <h3 class="subTitle">House Price Predictor</h3>
+                                    <br>
+                                    A machine learning project that predicts house prices using Linear Regression with features such as square footage, number of rooms, location, and house quality. This project showcases an end-to-end ML workflow—covering data cleaning, feature engineering, modeling, evaluation, and interpretation.
+                                    <br> </br>
+                                    The model was trained on a housing dataset containing attributes like <i>sqft_living</i>, <i>sqft_basement</i>, <i>bedrooms</i>, <i>bathrooms</i>, <i>grade</i>, <i>view</i>, <i>zipcode</i>, and more. Engineering new features such as <i>price_per_sqft</i>, <i>house_age</i>, <i>total_sqft</i>, and <i>total_bathrooms</i> significantly improved performance.
+                                    <br> </br>
+                                    <b>Final Model Results:</b> 
+                                    <br> </br>
+                                    - MAE = $52,251 <br>
+                                    - RMSE = $80,107 <br>
+                                    - R² = 0.91 <br>
+                                    <br> 
+                                    Cross-validation showed stable performance with an average R² of 0.91. Visualizations like correlation heatmaps, scatterplots, boxplots, and residual plots were used for deeper insights.
+                                    <br> </br>
+                                    Skills: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Feature Engineering, Linear Regression, Cross-Validation
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://github.com/aa358/house_price_predictor" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="colImg">
+                                <img src="images/StudentPredictor.jpg" alt="AcademicPerformanceRegressionModel" class="colImg">
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="colImg">
+                                <img src="images/Student1.png" alt="AcademicPerformanceRegressionModel" class="colImg"width="250"height="200">
+                                <img src="images/Student2.png" alt="AcademicPerformanceRegressionModel" class="colImg"width="250"height="200">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="colImg">
+                                <img src="images/Student3.png" alt="AcademicPerformanceRegressionModel" class="colImg"width="250"height="200">
+                                <img src="images/Student4.png" alt="AcademicPerformanceRegressionModel" class="colImg"width="250"height="200">
+                            </div>
+                        </div> 
+                        <div class="col">
+                            <div class="colDesc">
+                                <h3 class="subTitle">Academic Performance Regression Model</h3>
+                                <p>
+                                    <br>
+                                    A Machine Learning project focused on predicting students’ final exam scores using the UCI Student Performance Dataset. 
+                                    This regression model estimates a student's final grade (G3) by analyzing factors such as study habits, alcohol consumption, support systems, absences, and their previous academic performance.
+                                    <br> </br>
+                                    The workflow involved:
+                                    <br> </br>
+                                    <b>• Data Preparation:</b> Cleaning the dataset, engineering features (like <i>avg_previous_grade</i> and <i>weekend alcohol consumption</i>), 
+                                    handling categorical variables through one-hot encoding, and scaling numerical features for consistent model performance.
+                                    <br> </br>
+                                    <b>• Modeling:</b> Implemented and compared multiple regression models including:
+                                    <br> 
+                                    - Linear Regression (baseline model) <br>
+                                    - Polynomial Regression (degree 2)  
+                                    <br> </br>
+                                    <b>• Evaluation:</b> Assessed performance using MAE, RMSE, and R² scores. Visual insights included correlation heatmaps, predicted vs. actual plots, and residual diagnostics to evaluate model fit.
+                                    <br> </br>
+                                    <b>Results:</b>
+                                    <br>
+                                    - Baseline R²: 0.752 <br>
+                                    - Polynomial R²: 0.757 <br>
+                                    - Average prediction error: ~1.6 grade points <br>
+                                    <br>
+                                    The strongest predictor was a student’s prior grades, while behavioral factors (study time, absences, alcohol use) showed weaker but meaningful influence.
+                                    <br> </br>
+                                    This project demonstrates practical educational analytics, showing how ML can help identify patterns in academic performance and support student-success strategies.
+                                    <br> </br>
+                                    Skills: Python, Pandas, NumPy, Scikit-learn, Regression Modeling, Data Visualization, Feature Engineering
+                                </p>
+                                <div id="projectLink">
+                                    <a class="link" href="https://github.com/aa358/student_performance_predictor" target="_blank">
+                                        <i class="fab fa-github">&nbsp;</i>Github
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class = "hiddenLeft">
+                    <div class = "divider"></div>
                     <div class = "row">
                         <div class = "col">
                             <div class = "colImg">
